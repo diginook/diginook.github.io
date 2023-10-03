@@ -10,6 +10,28 @@
 </head>
 <body>
 
+    <script>
+        // Optional: You can use JavaScript to trigger the reveal effect on scroll
+window.addEventListener('scroll', revealOnScroll);
+
+function revealOnScroll() {
+    const revealImages = document.querySelectorAll('.image-container');
+
+    for (let image of revealImages) {
+        const windowHeight = window.innerHeight;
+        const imageTop = image.getBoundingClientRect().top;
+
+        if (imageTop < windowHeight * 0.75) {
+            image.classList.add('image-reveal');
+        }
+    }
+}
+
+// Initial check in case images are already in the viewport on page load
+revealOnScroll();
+
+        </script>
+
     <div class="nav-bar">
         <h1>DigiNook</h1>
         <p>Hi Welcome to my page if you would like to go fun</p>
