@@ -1,9 +1,9 @@
 html{
-    background-color: rgb(92, 92, 164);
+    background-color: white;
 }
 
 .nav-bar{
-    background-color: antiquewhite;
+    background-color: #4d5454;
     width: auto;
-    height: 40px;
+    height: 100px;
 }
