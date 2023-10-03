@@ -2,12 +2,8 @@ html{
     background-color: rgb(92, 92, 164);
 }
 
-#nav-bar{
-    position: relative;
-    display: inline-block;
-    padding: 8px 5px 3px 5px;
-    background-color: gray;
-    text-decoration: none; 
-    padding: .2em 1em;
-
+.nav-bar{
+    background-color: antiquewhite;
+    width: auto;
+    height: 40px;
 }
