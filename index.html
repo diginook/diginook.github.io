@@ -5,26 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 
-    <script>
-        window.addEventListener('scroll', revealOnScroll);
-
-function revealOnScroll() {
-    const revealImages = document.querySelectorAll('.image-container');
-
-    for (let image of revealImages) {
-        const windowHeight = window.innerHeight;
-        const imageTop = image.getBoundingClientRect().top;
-
-        if (imageTop < windowHeight * 0.75) {
-            image.classList.add('image-reveal');
-        }
-    }
-}
-
-// Initial check in case images are already in the viewport on page load
-revealOnScroll();
-    </script>
-
     <title>diginook</title>
 
 </head>
@@ -35,9 +15,9 @@ revealOnScroll();
         <p>Hi Welcome to my page if you would like to go fun</p>
     </div>
 
-    <!-- <img id="wateranime" src="waterflow.GIF" /> -->
+   <!--   <img id="wateranime" src="waterflow.GIF" /> -->
 
-    <div class="container">
+   <div class="container">
         <div class="image-container">
             <img src="welcome.PNG" alt="Reveal Image">
 

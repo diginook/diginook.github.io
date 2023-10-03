@@ -2,11 +2,11 @@ html{
     background-color: white;
 }
 
-.nav-bar{
+/* .nav-bar{
     background-color: #4d5454;
     width: auto;
-    height: 100px;
-}
+    height: 100px; 
+} */
 
 body {
     margin: 0;
@@ -33,12 +33,12 @@ body {
     overflow: hidden;
 }
 
-img {
+ img {
     width: 100%;
     height: auto;
     transform: translateY(100%);
     transition: transform 0.5s ease;
-}
+} */
 
 /* Add more styles as needed for your webpage */
 
