@@ -48,4 +48,9 @@ img {
     transform: translateY(0);
 }
 
-
+.area-1{
+    background-color: #4d5454;
+    width: 100px;
+    height: 100px;
+    border-color:orange;
+}
